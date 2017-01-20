@@ -5,7 +5,7 @@
 
 Operators, functions and extensions for the Foundation framework.
 
-
+Check out [ExtendedUIKit](https://github.com/daniel-barros/ExtendedUIKit) if you are interested in UIKit extensions.
 
 ## Installation
 

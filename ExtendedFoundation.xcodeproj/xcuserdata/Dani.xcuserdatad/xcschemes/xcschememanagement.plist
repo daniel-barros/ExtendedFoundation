@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ExtendedFoundation macOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>ExtendedFoundation tvOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ExtendedFoundation watchOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ExtendedFoundation.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +28,21 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>33B760321E324FC20083099F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>33B760421E3251D60083099F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>33B7604F1E3252320083099F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>33B7605C1E32525C0083099F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

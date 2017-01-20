@@ -7,17 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33B760381E324FC20083099F /* ExtendedFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B760361E324FC20083099F /* ExtendedFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B760731E3256200083099F /* ExtendedFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B760721E3256200083099F /* ExtendedFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B760741E3256200083099F /* ExtendedFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B760721E3256200083099F /* ExtendedFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B760751E3256200083099F /* ExtendedFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B760721E3256200083099F /* ExtendedFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B760761E3256200083099F /* ExtendedFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B760721E3256200083099F /* ExtendedFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B760891E3258310083099F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607C1E3258310083099F /* Array.swift */; };
+		33B7608A1E3258310083099F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607C1E3258310083099F /* Array.swift */; };
+		33B7608B1E3258310083099F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607C1E3258310083099F /* Array.swift */; };
+		33B7608C1E3258310083099F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607C1E3258310083099F /* Array.swift */; };
+		33B7608D1E3258310083099F /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607D1E3258310083099F /* Bool.swift */; };
+		33B7608E1E3258310083099F /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607D1E3258310083099F /* Bool.swift */; };
+		33B7608F1E3258310083099F /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607D1E3258310083099F /* Bool.swift */; };
+		33B760901E3258310083099F /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607D1E3258310083099F /* Bool.swift */; };
+		33B760911E3258310083099F /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607E1E3258310083099F /* Calendar.swift */; };
+		33B760921E3258310083099F /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607E1E3258310083099F /* Calendar.swift */; };
+		33B760931E3258310083099F /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607E1E3258310083099F /* Calendar.swift */; };
+		33B760941E3258310083099F /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607E1E3258310083099F /* Calendar.swift */; };
+		33B760951E3258310083099F /* ClosedRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607F1E3258310083099F /* ClosedRange.swift */; };
+		33B760961E3258310083099F /* ClosedRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607F1E3258310083099F /* ClosedRange.swift */; };
+		33B760971E3258310083099F /* ClosedRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607F1E3258310083099F /* ClosedRange.swift */; };
+		33B760981E3258310083099F /* ClosedRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7607F1E3258310083099F /* ClosedRange.swift */; };
+		33B760991E3258310083099F /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760801E3258310083099F /* Date.swift */; };
+		33B7609A1E3258310083099F /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760801E3258310083099F /* Date.swift */; };
+		33B7609B1E3258310083099F /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760801E3258310083099F /* Date.swift */; };
+		33B7609C1E3258310083099F /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760801E3258310083099F /* Date.swift */; };
+		33B7609D1E3258310083099F /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760811E3258310083099F /* DateFormatter.swift */; };
+		33B7609E1E3258310083099F /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760811E3258310083099F /* DateFormatter.swift */; };
+		33B7609F1E3258310083099F /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760811E3258310083099F /* DateFormatter.swift */; };
+		33B760A01E3258310083099F /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760811E3258310083099F /* DateFormatter.swift */; };
+		33B760A11E3258310083099F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760821E3258310083099F /* Double.swift */; };
+		33B760A21E3258310083099F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760821E3258310083099F /* Double.swift */; };
+		33B760A31E3258310083099F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760821E3258310083099F /* Double.swift */; };
+		33B760A41E3258310083099F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760821E3258310083099F /* Double.swift */; };
+		33B760A51E3258310083099F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760831E3258310083099F /* Int.swift */; };
+		33B760A61E3258310083099F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760831E3258310083099F /* Int.swift */; };
+		33B760A71E3258310083099F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760831E3258310083099F /* Int.swift */; };
+		33B760A81E3258310083099F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760831E3258310083099F /* Int.swift */; };
+		33B760A91E3258310083099F /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760841E3258310083099F /* Locale.swift */; };
+		33B760AA1E3258310083099F /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760841E3258310083099F /* Locale.swift */; };
+		33B760AB1E3258310083099F /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760841E3258310083099F /* Locale.swift */; };
+		33B760AC1E3258310083099F /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760841E3258310083099F /* Locale.swift */; };
+		33B760AD1E3258310083099F /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760851E3258310083099F /* NumberFormatter.swift */; };
+		33B760AE1E3258310083099F /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760851E3258310083099F /* NumberFormatter.swift */; };
+		33B760AF1E3258310083099F /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760851E3258310083099F /* NumberFormatter.swift */; };
+		33B760B01E3258310083099F /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760851E3258310083099F /* NumberFormatter.swift */; };
+		33B760B11E3258310083099F /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760861E3258310083099F /* Range.swift */; };
+		33B760B21E3258310083099F /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760861E3258310083099F /* Range.swift */; };
+		33B760B31E3258310083099F /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760861E3258310083099F /* Range.swift */; };
+		33B760B41E3258310083099F /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760861E3258310083099F /* Range.swift */; };
+		33B760B51E3258310083099F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760871E3258310083099F /* String.swift */; };
+		33B760B61E3258310083099F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760871E3258310083099F /* String.swift */; };
+		33B760B71E3258310083099F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760871E3258310083099F /* String.swift */; };
+		33B760B81E3258310083099F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760871E3258310083099F /* String.swift */; };
+		33B760B91E3258310083099F /* TimeZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760881E3258310083099F /* TimeZone.swift */; };
+		33B760BA1E3258310083099F /* TimeZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760881E3258310083099F /* TimeZone.swift */; };
+		33B760BB1E3258310083099F /* TimeZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760881E3258310083099F /* TimeZone.swift */; };
+		33B760BC1E3258310083099F /* TimeZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760881E3258310083099F /* TimeZone.swift */; };
+		33B760C81E32583D0083099F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760BF1E32583D0083099F /* Operators.swift */; };
+		33B760C91E32583D0083099F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760BF1E32583D0083099F /* Operators.swift */; };
+		33B760CA1E32583D0083099F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760BF1E32583D0083099F /* Operators.swift */; };
+		33B760CB1E32583D0083099F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760BF1E32583D0083099F /* Operators.swift */; };
+		33B760CF1E32587F0083099F /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760CD1E32587F0083099F /* Dispatch.swift */; };
+		33B760D01E32587F0083099F /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760CD1E32587F0083099F /* Dispatch.swift */; };
+		33B760D11E32587F0083099F /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760CD1E32587F0083099F /* Dispatch.swift */; };
+		33B760D21E32587F0083099F /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760CD1E32587F0083099F /* Dispatch.swift */; };
+		33B760D31E32587F0083099F /* NSLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760CE1E32587F0083099F /* NSLocalizedString.swift */; };
+		33B760D41E32587F0083099F /* NSLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760CE1E32587F0083099F /* NSLocalizedString.swift */; };
+		33B760D51E32587F0083099F /* NSLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760CE1E32587F0083099F /* NSLocalizedString.swift */; };
+		33B760D61E32587F0083099F /* NSLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760CE1E32587F0083099F /* NSLocalizedString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33B760331E324FC20083099F /* ExtendedFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtendedFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33B760361E324FC20083099F /* ExtendedFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtendedFoundation.h; sourceTree = "<group>"; };
-		33B760371E324FC20083099F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33B760431E3251D60083099F /* ExtendedFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtendedFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B760501E3252320083099F /* ExtendedFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtendedFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B7605D1E32525C0083099F /* ExtendedFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtendedFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B760721E3256200083099F /* ExtendedFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendedFoundation.h; sourceTree = "<group>"; };
+		33B760771E32568B0083099F /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		33B760781E32568B0083099F /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		33B760791E32568B0083099F /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		33B7607A1E32568B0083099F /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		33B7607C1E3258310083099F /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		33B7607D1E3258310083099F /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		33B7607E1E3258310083099F /* Calendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		33B7607F1E3258310083099F /* ClosedRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosedRange.swift; sourceTree = "<group>"; };
+		33B760801E3258310083099F /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		33B760811E3258310083099F /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		33B760821E3258310083099F /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		33B760831E3258310083099F /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		33B760841E3258310083099F /* Locale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locale.swift; sourceTree = "<group>"; };
+		33B760851E3258310083099F /* NumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		33B760861E3258310083099F /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		33B760871E3258310083099F /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		33B760881E3258310083099F /* TimeZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeZone.swift; sourceTree = "<group>"; };
+		33B760BF1E32583D0083099F /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		33B760CD1E32587F0083099F /* Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatch.swift; sourceTree = "<group>"; };
+		33B760CE1E32587F0083099F /* NSLocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLocalizedString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		33B7602F1E324FC20083099F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B7603F1E3251D60083099F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B7604C1E3252320083099F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B760591E32525C0083099F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,7 +140,7 @@
 		33B760291E324FC20083099F = {
 			isa = PBXGroup;
 			children = (
-				33B760351E324FC20083099F /* ExtendedFoundation */,
+				33B760701E3256200083099F /* Sources */,
 				33B760341E324FC20083099F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,17 +149,63 @@
 			isa = PBXGroup;
 			children = (
 				33B760331E324FC20083099F /* ExtendedFoundation.framework */,
+				33B760431E3251D60083099F /* ExtendedFoundation.framework */,
+				33B760501E3252320083099F /* ExtendedFoundation.framework */,
+				33B7605D1E32525C0083099F /* ExtendedFoundation.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33B760351E324FC20083099F /* ExtendedFoundation */ = {
+		33B760701E3256200083099F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				33B760361E324FC20083099F /* ExtendedFoundation.h */,
-				33B760371E324FC20083099F /* Info.plist */,
+				33B760BF1E32583D0083099F /* Operators.swift */,
+				33B7607B1E3258310083099F /* Extensions */,
+				33B760CC1E32587F0083099F /* Functions */,
+				33B760711E3256200083099F /* Supporting Files */,
 			);
-			path = ExtendedFoundation;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		33B760711E3256200083099F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33B760721E3256200083099F /* ExtendedFoundation.h */,
+				33B760771E32568B0083099F /* Info-iOS.plist */,
+				33B760781E32568B0083099F /* Info-macOS.plist */,
+				33B760791E32568B0083099F /* Info-tvOS.plist */,
+				33B7607A1E32568B0083099F /* Info-watchOS.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33B7607B1E3258310083099F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				33B7607C1E3258310083099F /* Array.swift */,
+				33B7607D1E3258310083099F /* Bool.swift */,
+				33B7607E1E3258310083099F /* Calendar.swift */,
+				33B7607F1E3258310083099F /* ClosedRange.swift */,
+				33B760801E3258310083099F /* Date.swift */,
+				33B760811E3258310083099F /* DateFormatter.swift */,
+				33B760821E3258310083099F /* Double.swift */,
+				33B760831E3258310083099F /* Int.swift */,
+				33B760841E3258310083099F /* Locale.swift */,
+				33B760851E3258310083099F /* NumberFormatter.swift */,
+				33B760861E3258310083099F /* Range.swift */,
+				33B760871E3258310083099F /* String.swift */,
+				33B760881E3258310083099F /* TimeZone.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		33B760CC1E32587F0083099F /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				33B760CD1E32587F0083099F /* Dispatch.swift */,
+				33B760CE1E32587F0083099F /* NSLocalizedString.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,16 +215,40 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B760381E324FC20083099F /* ExtendedFoundation.h in Headers */,
+				33B760731E3256200083099F /* ExtendedFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B760401E3251D60083099F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B760741E3256200083099F /* ExtendedFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B7604D1E3252320083099F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B760751E3256200083099F /* ExtendedFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B7605A1E32525C0083099F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B760761E3256200083099F /* ExtendedFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		33B760321E324FC20083099F /* ExtendedFoundation */ = {
+		33B760321E324FC20083099F /* ExtendedFoundation iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33B7603B1E324FC20083099F /* Build configuration list for PBXNativeTarget "ExtendedFoundation" */;
+			buildConfigurationList = 33B7603B1E324FC20083099F /* Build configuration list for PBXNativeTarget "ExtendedFoundation iOS" */;
 			buildPhases = (
 				33B7602E1E324FC20083099F /* Sources */,
 				33B7602F1E324FC20083099F /* Frameworks */,
@@ -79,9 +259,63 @@
 			);
 			dependencies = (
 			);
-			name = ExtendedFoundation;
+			name = "ExtendedFoundation iOS";
 			productName = ExtendedFoundation;
 			productReference = 33B760331E324FC20083099F /* ExtendedFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33B760421E3251D60083099F /* ExtendedFoundation watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B760481E3251D60083099F /* Build configuration list for PBXNativeTarget "ExtendedFoundation watchOS" */;
+			buildPhases = (
+				33B7603E1E3251D60083099F /* Sources */,
+				33B7603F1E3251D60083099F /* Frameworks */,
+				33B760401E3251D60083099F /* Headers */,
+				33B760411E3251D60083099F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExtendedFoundation watchOS";
+			productName = "ExtendedFoundation watchOS";
+			productReference = 33B760431E3251D60083099F /* ExtendedFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33B7604F1E3252320083099F /* ExtendedFoundation tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B760551E3252320083099F /* Build configuration list for PBXNativeTarget "ExtendedFoundation tvOS" */;
+			buildPhases = (
+				33B7604B1E3252320083099F /* Sources */,
+				33B7604C1E3252320083099F /* Frameworks */,
+				33B7604D1E3252320083099F /* Headers */,
+				33B7604E1E3252320083099F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExtendedFoundation tvOS";
+			productName = "ExtendedFoundation tvOS";
+			productReference = 33B760501E3252320083099F /* ExtendedFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33B7605C1E32525C0083099F /* ExtendedFoundation macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B760621E32525C0083099F /* Build configuration list for PBXNativeTarget "ExtendedFoundation macOS" */;
+			buildPhases = (
+				33B760581E32525C0083099F /* Sources */,
+				33B760591E32525C0083099F /* Frameworks */,
+				33B7605A1E32525C0083099F /* Headers */,
+				33B7605B1E32525C0083099F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExtendedFoundation macOS";
+			productName = "ExtendedFoundation macOS";
+			productReference = 33B7605D1E32525C0083099F /* ExtendedFoundation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -94,6 +328,21 @@
 				ORGANIZATIONNAME = "Daniel Barros";
 				TargetAttributes = {
 					33B760321E324FC20083099F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A66AUV6B49;
+						ProvisioningStyle = Automatic;
+					};
+					33B760421E3251D60083099F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A66AUV6B49;
+						ProvisioningStyle = Automatic;
+					};
+					33B7604F1E3252320083099F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A66AUV6B49;
+						ProvisioningStyle = Automatic;
+					};
+					33B7605C1E32525C0083099F = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = A66AUV6B49;
 						ProvisioningStyle = Automatic;
@@ -112,13 +361,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33B760321E324FC20083099F /* ExtendedFoundation */,
+				33B760321E324FC20083099F /* ExtendedFoundation iOS */,
+				33B760421E3251D60083099F /* ExtendedFoundation watchOS */,
+				33B7604F1E3252320083099F /* ExtendedFoundation tvOS */,
+				33B7605C1E32525C0083099F /* ExtendedFoundation macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		33B760311E324FC20083099F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B760411E3251D60083099F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B7604E1E3252320083099F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B7605B1E32525C0083099F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -132,6 +405,91 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B7609D1E3258310083099F /* DateFormatter.swift in Sources */,
+				33B760D31E32587F0083099F /* NSLocalizedString.swift in Sources */,
+				33B760B11E3258310083099F /* Range.swift in Sources */,
+				33B760AD1E3258310083099F /* NumberFormatter.swift in Sources */,
+				33B760891E3258310083099F /* Array.swift in Sources */,
+				33B760A91E3258310083099F /* Locale.swift in Sources */,
+				33B760991E3258310083099F /* Date.swift in Sources */,
+				33B760B51E3258310083099F /* String.swift in Sources */,
+				33B760911E3258310083099F /* Calendar.swift in Sources */,
+				33B760C81E32583D0083099F /* Operators.swift in Sources */,
+				33B7608D1E3258310083099F /* Bool.swift in Sources */,
+				33B760951E3258310083099F /* ClosedRange.swift in Sources */,
+				33B760A11E3258310083099F /* Double.swift in Sources */,
+				33B760CF1E32587F0083099F /* Dispatch.swift in Sources */,
+				33B760A51E3258310083099F /* Int.swift in Sources */,
+				33B760B91E3258310083099F /* TimeZone.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B7603E1E3251D60083099F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B7609E1E3258310083099F /* DateFormatter.swift in Sources */,
+				33B760D41E32587F0083099F /* NSLocalizedString.swift in Sources */,
+				33B760B21E3258310083099F /* Range.swift in Sources */,
+				33B760AE1E3258310083099F /* NumberFormatter.swift in Sources */,
+				33B7608A1E3258310083099F /* Array.swift in Sources */,
+				33B760AA1E3258310083099F /* Locale.swift in Sources */,
+				33B7609A1E3258310083099F /* Date.swift in Sources */,
+				33B760B61E3258310083099F /* String.swift in Sources */,
+				33B760921E3258310083099F /* Calendar.swift in Sources */,
+				33B760C91E32583D0083099F /* Operators.swift in Sources */,
+				33B7608E1E3258310083099F /* Bool.swift in Sources */,
+				33B760961E3258310083099F /* ClosedRange.swift in Sources */,
+				33B760A21E3258310083099F /* Double.swift in Sources */,
+				33B760D01E32587F0083099F /* Dispatch.swift in Sources */,
+				33B760A61E3258310083099F /* Int.swift in Sources */,
+				33B760BA1E3258310083099F /* TimeZone.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B7604B1E3252320083099F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B7609F1E3258310083099F /* DateFormatter.swift in Sources */,
+				33B760D51E32587F0083099F /* NSLocalizedString.swift in Sources */,
+				33B760B31E3258310083099F /* Range.swift in Sources */,
+				33B760AF1E3258310083099F /* NumberFormatter.swift in Sources */,
+				33B7608B1E3258310083099F /* Array.swift in Sources */,
+				33B760AB1E3258310083099F /* Locale.swift in Sources */,
+				33B7609B1E3258310083099F /* Date.swift in Sources */,
+				33B760B71E3258310083099F /* String.swift in Sources */,
+				33B760931E3258310083099F /* Calendar.swift in Sources */,
+				33B760CA1E32583D0083099F /* Operators.swift in Sources */,
+				33B7608F1E3258310083099F /* Bool.swift in Sources */,
+				33B760971E3258310083099F /* ClosedRange.swift in Sources */,
+				33B760A31E3258310083099F /* Double.swift in Sources */,
+				33B760D11E32587F0083099F /* Dispatch.swift in Sources */,
+				33B760A71E3258310083099F /* Int.swift in Sources */,
+				33B760BB1E3258310083099F /* TimeZone.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B760581E32525C0083099F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B760A01E3258310083099F /* DateFormatter.swift in Sources */,
+				33B760D61E32587F0083099F /* NSLocalizedString.swift in Sources */,
+				33B760B41E3258310083099F /* Range.swift in Sources */,
+				33B760B01E3258310083099F /* NumberFormatter.swift in Sources */,
+				33B7608C1E3258310083099F /* Array.swift in Sources */,
+				33B760AC1E3258310083099F /* Locale.swift in Sources */,
+				33B7609C1E3258310083099F /* Date.swift in Sources */,
+				33B760B81E3258310083099F /* String.swift in Sources */,
+				33B760941E3258310083099F /* Calendar.swift in Sources */,
+				33B760CB1E32583D0083099F /* Operators.swift in Sources */,
+				33B760901E3258310083099F /* Bool.swift in Sources */,
+				33B760981E3258310083099F /* ClosedRange.swift in Sources */,
+				33B760A41E3258310083099F /* Double.swift in Sources */,
+				33B760D21E32587F0083099F /* Dispatch.swift in Sources */,
+				33B760A81E3258310083099F /* Int.swift in Sources */,
+				33B760BC1E3258310083099F /* TimeZone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +537,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -226,7 +585,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -240,17 +600,19 @@
 		33B7603C1E324FC20083099F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A66AUV6B49;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ExtendedFoundation/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "daniel-barros.ExtendedFoundation";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "daniel-barros.ExtendedFoundation-iOS";
+				PRODUCT_NAME = ExtendedFoundation;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -259,17 +621,159 @@
 		33B7603D1E324FC20083099F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A66AUV6B49;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ExtendedFoundation/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daniel-barros.ExtendedFoundation-iOS";
+				PRODUCT_NAME = ExtendedFoundation;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		33B760491E3251D60083099F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A66AUV6B49;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "daniel-barros.ExtendedFoundation";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "daniel-barros.ExtendedFoundation-watchOS";
+				PRODUCT_NAME = ExtendedFoundation;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		33B7604A1E3251D60083099F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A66AUV6B49;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info-watchOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daniel-barros.ExtendedFoundation-watchOS";
+				PRODUCT_NAME = ExtendedFoundation;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		33B760561E3252320083099F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A66AUV6B49;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daniel-barros.ExtendedFoundation-tvOS";
+				PRODUCT_NAME = ExtendedFoundation;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		33B760571E3252320083099F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A66AUV6B49;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "daniel-barros.ExtendedFoundation-tvOS";
+				PRODUCT_NAME = ExtendedFoundation;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		33B760631E32525C0083099F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A66AUV6B49;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info-macOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "daniel-barros.ExtendedFoundation-macOS";
+				PRODUCT_NAME = ExtendedFoundation;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		33B760641E32525C0083099F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A66AUV6B49;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info-macOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "daniel-barros.ExtendedFoundation-macOS";
+				PRODUCT_NAME = ExtendedFoundation;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -287,11 +791,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33B7603B1E324FC20083099F /* Build configuration list for PBXNativeTarget "ExtendedFoundation" */ = {
+		33B7603B1E324FC20083099F /* Build configuration list for PBXNativeTarget "ExtendedFoundation iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33B7603C1E324FC20083099F /* Debug */,
 				33B7603D1E324FC20083099F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33B760481E3251D60083099F /* Build configuration list for PBXNativeTarget "ExtendedFoundation watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B760491E3251D60083099F /* Debug */,
+				33B7604A1E3251D60083099F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33B760551E3252320083099F /* Build configuration list for PBXNativeTarget "ExtendedFoundation tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B760561E3252320083099F /* Debug */,
+				33B760571E3252320083099F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33B760621E32525C0083099F /* Build configuration list for PBXNativeTarget "ExtendedFoundation macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B760631E32525C0083099F /* Debug */,
+				33B760641E32525C0083099F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

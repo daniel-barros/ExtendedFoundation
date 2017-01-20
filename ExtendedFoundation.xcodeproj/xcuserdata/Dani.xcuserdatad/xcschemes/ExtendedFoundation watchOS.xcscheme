@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33B760321E324FC20083099F"
+               BlueprintIdentifier = "33B760421E3251D60083099F"
                BuildableName = "ExtendedFoundation.framework"
-               BlueprintName = "ExtendedFoundation iOS"
+               BlueprintName = "ExtendedFoundation watchOS"
                ReferencedContainer = "container:ExtendedFoundation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "33B760321E324FC20083099F"
+            BlueprintIdentifier = "33B760421E3251D60083099F"
             BuildableName = "ExtendedFoundation.framework"
-            BlueprintName = "ExtendedFoundation iOS"
+            BlueprintName = "ExtendedFoundation watchOS"
             ReferencedContainer = "container:ExtendedFoundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "33B760321E324FC20083099F"
+            BlueprintIdentifier = "33B760421E3251D60083099F"
             BuildableName = "ExtendedFoundation.framework"
-            BlueprintName = "ExtendedFoundation iOS"
+            BlueprintName = "ExtendedFoundation watchOS"
             ReferencedContainer = "container:ExtendedFoundation.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

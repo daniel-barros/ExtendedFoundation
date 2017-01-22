@@ -119,10 +119,5 @@ public func == <T>(left: T, right: DisjunctiveComparisonArray<T>) -> Bool {
 }
 
 public func == <T>(left: DisjunctiveComparisonArray<T>, right: T) -> Bool {
-    for e in left.elements {
-        if right == e {
-            return true
-        }
-    }
-    return false
+    return left.elements.contains(right)
 }

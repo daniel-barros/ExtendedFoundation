@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "33B7605C1E32525C0083099F"
-               BuildableName = "ExtendedFoundation macOS.framework"
+               BuildableName = "ExtendedFoundation.framework"
                BlueprintName = "ExtendedFoundation macOS"
                ReferencedContainer = "container:ExtendedFoundation.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33B7605C1E32525C0083099F"
-            BuildableName = "ExtendedFoundation macOS.framework"
+            BuildableName = "ExtendedFoundation.framework"
             BlueprintName = "ExtendedFoundation macOS"
             ReferencedContainer = "container:ExtendedFoundation.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33B7605C1E32525C0083099F"
-            BuildableName = "ExtendedFoundation macOS.framework"
+            BuildableName = "ExtendedFoundation.framework"
             BlueprintName = "ExtendedFoundation macOS"
             ReferencedContainer = "container:ExtendedFoundation.xcodeproj">
          </BuildableReference>

@@ -29,6 +29,10 @@ import Foundation
 
 public extension Date {
     
+    static var now: Date {
+        return Date()
+    }
+    
     var isInPast: Bool {
         return timeIntervalSinceNow < 0
     }
@@ -40,6 +44,18 @@ public extension Date {
     @available(iOS 10, watchOS 3, tvOS 10, macOS 10.12, *)
     func adding(_ duration: Measurement<UnitDuration>) -> Date {
         return addingTimeInterval(duration.converted(to: .seconds).value)
+    }
+    
+    func adding(days: Int, inCalendar calendar: Calendar) -> Date {
+        return calendar.date(byAdding: DateComponents(day: days), to: self)!
+    }
+    
+    func adding(months: Int, inCalendar calendar: Calendar) -> Date {
+        return calendar.date(byAdding: DateComponents(month: months), to: self)!
+    }
+    
+    func adding(years: Int, inCalendar calendar: Calendar) -> Date {
+        return calendar.date(byAdding: DateComponents(year: years), to: self)!
     }
 }
 

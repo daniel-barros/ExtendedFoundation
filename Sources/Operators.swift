@@ -121,3 +121,14 @@ public func == <T>(left: T, right: DisjunctiveComparisonArray<T>) -> Bool {
 public func == <T>(left: DisjunctiveComparisonArray<T>, right: T) -> Bool {
     return left.elements.contains(right)
 }
+
+
+
+postfix operator ...
+
+/// A closed range that ends at `Int.max`.
+///
+/// Used in a subscript access to a `String` it will be understood as going from `n` to the last valid index.
+postfix func ...(n: Int) -> ClosedRange<Int> {
+    return n...(.max)
+}

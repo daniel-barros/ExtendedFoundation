@@ -79,6 +79,10 @@
 		33B760D41E32587F0083099F /* NSLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760CE1E32587F0083099F /* NSLocalizedString.swift */; };
 		33B760D51E32587F0083099F /* NSLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760CE1E32587F0083099F /* NSLocalizedString.swift */; };
 		33B760D61E32587F0083099F /* NSLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B760CE1E32587F0083099F /* NSLocalizedString.swift */; };
+		33BDEEA01E410D6C0093C94C /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDEE9F1E410D6C0093C94C /* UserDefaults.swift */; };
+		33BDEEA11E410D6C0093C94C /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDEE9F1E410D6C0093C94C /* UserDefaults.swift */; };
+		33BDEEA21E410D6C0093C94C /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDEE9F1E410D6C0093C94C /* UserDefaults.swift */; };
+		33BDEEA31E410D6C0093C94C /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BDEE9F1E410D6C0093C94C /* UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +112,7 @@
 		33B760BF1E32583D0083099F /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		33B760CD1E32587F0083099F /* Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatch.swift; sourceTree = "<group>"; };
 		33B760CE1E32587F0083099F /* NSLocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLocalizedString.swift; sourceTree = "<group>"; };
+		33BDEE9F1E410D6C0093C94C /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +211,7 @@
 				33B760831E3258310083099F /* Int.swift */,
 				33B760841E3258310083099F /* Locale.swift */,
 				33B760851E3258310083099F /* NumberFormatter.swift */,
+				33BDEE9F1E410D6C0093C94C /* UserDefaults.swift */,
 				33B760861E3258310083099F /* Range.swift */,
 				33B760871E3258310083099F /* String.swift */,
 				33B760881E3258310083099F /* TimeZone.swift */,
@@ -433,6 +439,7 @@
 				33B760951E3258310083099F /* ClosedRange.swift in Sources */,
 				33B760A11E3258310083099F /* Double.swift in Sources */,
 				33B760CF1E32587F0083099F /* Dispatch.swift in Sources */,
+				33BDEEA01E410D6C0093C94C /* UserDefaults.swift in Sources */,
 				33671C1D1E362E5D0057A29B /* Result.swift in Sources */,
 				33B760A51E3258310083099F /* Int.swift in Sources */,
 				33B760B91E3258310083099F /* TimeZone.swift in Sources */,
@@ -457,6 +464,7 @@
 				33B760961E3258310083099F /* ClosedRange.swift in Sources */,
 				33B760A21E3258310083099F /* Double.swift in Sources */,
 				33B760D01E32587F0083099F /* Dispatch.swift in Sources */,
+				33BDEEA11E410D6C0093C94C /* UserDefaults.swift in Sources */,
 				33671C1E1E362E5D0057A29B /* Result.swift in Sources */,
 				33B760A61E3258310083099F /* Int.swift in Sources */,
 				33B760BA1E3258310083099F /* TimeZone.swift in Sources */,
@@ -481,6 +489,7 @@
 				33B760971E3258310083099F /* ClosedRange.swift in Sources */,
 				33B760A31E3258310083099F /* Double.swift in Sources */,
 				33B760D11E32587F0083099F /* Dispatch.swift in Sources */,
+				33BDEEA21E410D6C0093C94C /* UserDefaults.swift in Sources */,
 				33671C1F1E362E5D0057A29B /* Result.swift in Sources */,
 				33B760A71E3258310083099F /* Int.swift in Sources */,
 				33B760BB1E3258310083099F /* TimeZone.swift in Sources */,
@@ -505,6 +514,7 @@
 				33B760981E3258310083099F /* ClosedRange.swift in Sources */,
 				33B760A41E3258310083099F /* Double.swift in Sources */,
 				33B760D21E32587F0083099F /* Dispatch.swift in Sources */,
+				33BDEEA31E410D6C0093C94C /* UserDefaults.swift in Sources */,
 				33671C201E362E5D0057A29B /* Result.swift in Sources */,
 				33B760A81E3258310083099F /* Int.swift in Sources */,
 				33B760BC1E3258310083099F /* TimeZone.swift in Sources */,

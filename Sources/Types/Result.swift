@@ -53,6 +53,14 @@ public enum BooleanResult<E> where E: Error {
     case success
     case failure(E?)
     
+    /// `true` if `.success`, false otherwise. 
+    public var isSuccessful: Bool {
+        if case .success = self {
+            return true
+        }
+        return false
+    }
+    
     /// The associated error if `.failure`, nil otherwise.
     public var error: E? {
         if case let .failure(error) = self {

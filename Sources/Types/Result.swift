@@ -30,4 +30,20 @@ import Foundation
 public enum Result<T> {
     case success(T)
     case failure(Error)
+    
+    /// The associated value if `.success`, nil otherwise.
+    public var value: T? {
+        if case let .success(value) = self {
+            return value
+        }
+        return nil
+    }
+    
+    /// The associated error if `.failure`, nil otherwise.
+    public var error: Error? {
+        if case let .failure(error) = self {
+            return error
+        }
+        return nil
+    }
 }

@@ -33,6 +33,14 @@ public extension Int {
         let r = self % modulus
         return r < 0 ? modulus + r : r
     }
+    
+    var isEven: Bool {
+        return self % 2 == 0
+    }
+    
+    var isOdd: Bool {
+        return self % 2 != 0
+    }
 }
 
 

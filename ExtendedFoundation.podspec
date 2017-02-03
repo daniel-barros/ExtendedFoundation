@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ExtendedFoundation"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "Operators, functions, types and extensions that complement the Foundation framework."
   s.homepage     = "https://github.com/daniel-barros/ExtendedFoundation"
   s.license      = { :type => "MIT", :file => "LICENSE.md" }

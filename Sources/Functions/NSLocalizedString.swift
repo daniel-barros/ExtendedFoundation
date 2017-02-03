@@ -26,7 +26,6 @@
 
 import Foundation
 
-
 public func NSLocalizedString(string: String) -> String {
     return NSLocalizedString(string, comment: "")
 }

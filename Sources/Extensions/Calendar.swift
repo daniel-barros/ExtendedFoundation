@@ -26,7 +26,6 @@
 
 import Foundation
 
-
 public extension Calendar {
     
     func differenceInDays(from firstDate: Date, to secondDate: Date) -> Int {
@@ -34,7 +33,6 @@ public extension Calendar {
         let date2 = startOfDay(for: secondDate)
         return dateComponents([.day], from: date1, to: date2).day!
     }
-    
     
     /// Gregorian calendar with US locale and ET time zone.
     static var americanEastern: Calendar {
@@ -44,7 +42,6 @@ public extension Calendar {
         return calendar
     }
     
-    
     /// Gregorian calendar with US locale and ET time zone.
     static var americanPacific: Calendar {
         var calendar = Calendar(identifier: .gregorian)
@@ -52,7 +49,6 @@ public extension Calendar {
         calendar.timeZone = TimeZone.PT
         return calendar
     }
-    
     
     /// Gregorian calendar with Spanish locale and time zone.
     static var spanish: Calendar {
@@ -62,12 +58,10 @@ public extension Calendar {
         return calendar
     }
     
-    
     /// The first moment of today.
     var today: Date {
         return startOfDay(for: Date())
     }
-    
     
     /// The first moment of yesterday.
     var yesterday: Date {

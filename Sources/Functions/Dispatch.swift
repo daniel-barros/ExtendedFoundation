@@ -26,7 +26,6 @@
 
 import Foundation
 
-
 /// Executes the given closure on the main thread after the specified time (in seconds).
 public func delay(_ delay: Double, closure: @escaping () -> ()) {
     DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + delay, execute: closure)

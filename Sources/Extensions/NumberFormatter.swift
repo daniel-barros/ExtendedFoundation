@@ -26,7 +26,6 @@
 
 import Foundation
 
-
 public extension NumberFormatter {
     
     convenience init(numberStyle: NumberFormatter.Style,

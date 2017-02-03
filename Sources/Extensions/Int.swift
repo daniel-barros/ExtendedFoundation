@@ -26,7 +26,6 @@
 
 import Foundation
 
-
 public extension Int {
     /// Mathematical modulo operation (unlike the % operator, this never returns a negative number).
     func modulo(_ modulus: Int) -> Int {
@@ -42,7 +41,6 @@ public extension Int {
         return self % 2 != 0
     }
 }
-
 
 @available(iOS 10, watchOS 3, tvOS 10, macOS 10.12, *)
 public extension Int {

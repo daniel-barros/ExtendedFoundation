@@ -11,6 +11,7 @@ import Foundation
 public protocol Emptiable {
     var isEmpty: Bool { get }
 }
+
 extension String: Emptiable {}
 
 // Extension for optional strings that provides the `isNilOrEmpty` property.

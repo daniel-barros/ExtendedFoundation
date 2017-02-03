@@ -26,7 +26,6 @@
 
 import Foundation
 
-
 public extension Array {
     
     var second: Element? {

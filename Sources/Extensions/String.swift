@@ -26,7 +26,6 @@
 
 import Foundation
 
-
 public extension String {
     
     func prepending(_ aString: String) -> String {

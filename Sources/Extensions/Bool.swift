@@ -26,7 +26,6 @@
 
 import Foundation
 
-
 public extension Bool {
     
     static var random: Bool {

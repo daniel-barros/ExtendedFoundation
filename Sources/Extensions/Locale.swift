@@ -26,7 +26,6 @@
 
 import Foundation
 
-
 public extension Locale {
     /// English American locale.
     static var american: Locale {

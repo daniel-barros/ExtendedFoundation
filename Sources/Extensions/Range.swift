@@ -26,7 +26,6 @@
 
 import Foundation
 
-
 public extension Range {
     
     func contains(_ range: ClosedRange<Bound>) -> Bool {

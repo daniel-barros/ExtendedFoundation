@@ -26,7 +26,6 @@
 
 import Foundation
 
-
 public extension TimeZone {
     /// Eastern time zone (EST or EDT).
     static var ET: TimeZone {

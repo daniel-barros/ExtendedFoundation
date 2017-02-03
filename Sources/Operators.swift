@@ -26,7 +26,6 @@
 
 import Foundation
 
-
 infix operator =? : AssignmentPrecedence
 
 /// Performs assignment only if the element on the right is not nil, otherwise it does nothing.
@@ -121,7 +120,6 @@ public func == <T>(left: T, right: DisjunctiveComparisonArray<T>) -> Bool {
 public func == <T>(left: DisjunctiveComparisonArray<T>, right: T) -> Bool {
     return left.elements.contains(right)
 }
-
 
 
 postfix operator ...

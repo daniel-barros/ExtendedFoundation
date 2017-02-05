@@ -29,7 +29,7 @@ import Foundation
 public extension Sequence {
     /// Groups the elements in the sequence and returns a dictionary with groups as keys and arrays of elements as values.
     /// - parameter groupOf: A closure used to get the group for an element in the sequence.
-    func grouped<T>(_ groupOf: (Self.Iterator.Element) throws -> T) rethrows -> [T: [Self.Iterator.Element]] where T: Hashable {
+    func group<T>(_ groupOf: (Self.Iterator.Element) throws -> T) rethrows -> [T: [Self.Iterator.Element]] where T: Hashable {
         var dict: [T: [Iterator.Element]] = [:]
         for e in self {
             let group = try groupOf(e)

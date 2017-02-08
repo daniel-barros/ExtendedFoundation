@@ -26,17 +26,18 @@
 
 import Foundation
 
-/// Executes the given closure on the main thread after the specified time (in seconds).
-public func delay(_ delay: Double, closure: @escaping () -> ()) {
-    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + delay, execute: closure)
+/// Executes the given closure on the dispatch queue after the specified time (in seconds).
+/// - parameter queue: The default is the main queue.
+public func delay(_ seconds: Double, queue: DispatchQueue = .main, closure: @escaping () -> ()) {
+    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + seconds, execute: closure)
 }
 
-/// Executes the given closure on the main queue.
+/// Executes the given closure asynchronously on the main queue.
 public func mainQueue(closure: @escaping () -> ()) {
     DispatchQueue.main.async(execute: closure)
 }
 
-/// Executes the given closure concurrently on a queue of the specified QOS (Quality of Service).
+/// Executes the given closure asynchronously on a queue of the specified QOS (Quality of Service).
 public func backgroundQueue(qos: DispatchQoS.QoSClass, closure: @escaping () -> ()) {
     DispatchQueue.global(qos: qos).async(execute: closure)
 }

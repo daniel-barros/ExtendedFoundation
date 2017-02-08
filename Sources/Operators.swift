@@ -30,13 +30,11 @@ infix operator =? : AssignmentPrecedence
 
 /// Performs assignment only if the element on the right is not nil, otherwise it does nothing.
 ///
-/// **Example:**
+/// For example:
 ///
-/// a =? b
-///
-/// *is equivalent to:*
-///
-/// if let c = b { a = c }
+///     a =? b
+///     // is equivalent to
+///     if let c = b { a = c }
 public func =? <T>(left: inout T, right: T?) {
     if let right = right {
         left = right
@@ -45,13 +43,11 @@ public func =? <T>(left: inout T, right: T?) {
 
 /// Performs assignment only if the element on the right is not nil, otherwise it does nothing.
 ///
-/// **Example:**
+/// For example:
 ///
-/// a =? b
-///
-/// *is equivalent to:*
-///
-/// if let c = b { a = c }
+///     a =? b
+///     // is equivalent to
+///     if let c = b { a = c }
 public func =? <T>(left: inout T?, right: T?) {
     if let right = right {
         left = right
@@ -60,13 +56,11 @@ public func =? <T>(left: inout T?, right: T?) {
 
 /// Performs assignment only if the element on the right is not nil, otherwise it does nothing.
 ///
-/// **Example:**
+/// For example:
 ///
-/// a =? b
-///
-/// *is equivalent to:*
-///
-/// if let c = b { a = c }
+///     a =? b
+///     // is equivalent to
+///     if let c = b { a = c }
 public func =? <T>(left: inout T!, right: T?) {
     if let right = right {
         left = right
@@ -85,13 +79,11 @@ public prefix func - <T: Unit>(measurement: Measurement<T>) -> Measurement<T> {
 ///
 /// It can only be instantiated using the || operator on instances of the same Equatable type (not Bool).
 ///
-/// **Example:**
+/// For example:
 ///
-/// a == (1 || 2 || 3)
-///
-/// *is equivalent to:*
-///
-/// a == 1 || a == 2 || a == 3
+///     a == (1 || 2 || 3)
+///     // is equivalent to
+///     a == 1 || a == 2 || a == 3
 public struct DisjunctiveComparisonArray<T: Equatable> {
     
     var elements: [T]

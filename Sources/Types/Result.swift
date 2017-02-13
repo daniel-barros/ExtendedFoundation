@@ -29,7 +29,7 @@ import Foundation
 /// Convenient type for using with completion handlers in asynchronous functions that may fail with an error.
 public enum Result<T> {
     case success(T)
-    case failure(Error)
+    case failure(Error?)
     
     /// The associated value if `.success`, nil otherwise.
     public var value: T? {

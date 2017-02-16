@@ -119,6 +119,6 @@ postfix operator ...
 /// A closed range that ends at `Int.max`.
 ///
 /// Used in a subscript access to a `String` it will be understood as going from `n` to the last valid index.
-postfix func ...(n: Int) -> ClosedRange<Int> {
+public postfix func ...(n: Int) -> ClosedRange<Int> {
     return n...(.max)
 }

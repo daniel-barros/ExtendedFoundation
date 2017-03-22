@@ -31,6 +31,14 @@ public enum Result<T> {
     case success(T)
     case failure(Error?)
     
+    /// `true` if `.success`, false otherwise.
+    public var isSuccessful: Bool {
+        if case .success(_) = self {
+            return true
+        }
+        return false
+    }
+    
     /// The associated value if `.success`, nil otherwise.
     public var value: T? {
         if case let .success(value) = self {
@@ -53,7 +61,7 @@ public enum BooleanResult<E> where E: Error {
     case success
     case failure(E?)
     
-    /// `true` if `.success`, false otherwise. 
+    /// `true` if `.success`, false otherwise.
     public var isSuccessful: Bool {
         if case .success = self {
             return true

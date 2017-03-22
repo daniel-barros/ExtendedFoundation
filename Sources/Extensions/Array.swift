@@ -29,24 +29,19 @@ import Foundation
 public extension Array {
     
     var second: Element? {
-        guard count >= 2 else {
-            return nil
-        }
-        return self[1]
+        return self[safe: 1]
     }
     
     var third: Element? {
-        guard count >= 3 else {
-            return nil
-        }
-        return self[2]
+        return self[safe: 2]
     }
     
     var fourth: Element? {
-        guard count >= 4 else {
-            return nil
-        }
-        return self[3]
+        return self[safe: 3]
+    }
+    
+    subscript(safe index: Int) -> Element? {
+        return count >= index ? self[index] : nil
     }
     
     /// Shuffles the elements of `self` in-place.

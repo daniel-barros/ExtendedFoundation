@@ -56,5 +56,29 @@ public extension Date {
     func adding(years: Int, inCalendar calendar: Calendar) -> Date {
         return calendar.date(byAdding: DateComponents(year: years), to: self)!
     }
+    
+    func hours(since date: Date) -> Int {
+        return Int(timeIntervalSince(date)) / 3600
+    }
+    
+    func minutes(since date: Date) -> Int {
+        return Int(timeIntervalSince(date)) / 60
+    }
+    
+    func seconds(since date: Date) -> Int {
+        return Int(timeIntervalSince(date))
+    }
+    
+    func hours(until date: Date) -> Int {
+        return date.hours(since: self)
+    }
+    
+    func minutes(until date: Date) -> Int {
+        return date.minutes(since: self)
+    }
+    
+    func seconds(until date: Date) -> Int {
+        return date.seconds(since: self)
+    }
 }
 

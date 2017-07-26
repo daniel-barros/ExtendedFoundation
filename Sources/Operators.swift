@@ -70,7 +70,7 @@ public func =? <T>(left: inout T!, right: T?) {
 
 /// Minus sign operator for measurements.
 @available(iOS 10, watchOS 3, tvOS 10, macOS 10.12, *)
-public prefix func - <T: Unit>(measurement: Measurement<T>) -> Measurement<T> {
+public prefix func - <T>(measurement: Measurement<T>) -> Measurement<T> {
     return Measurement<T>(value: -measurement.value, unit: measurement.unit)
 }
 
@@ -111,14 +111,4 @@ public func == <T>(left: T, right: DisjunctiveComparisonArray<T>) -> Bool {
 
 public func == <T>(left: DisjunctiveComparisonArray<T>, right: T) -> Bool {
     return left.elements.contains(right)
-}
-
-
-postfix operator ...
-
-/// A closed range that ends at `Int.max`.
-///
-/// Used in a subscript access to a `String` it will be understood as going from `n` to the last valid index.
-public postfix func ...(n: Int) -> ClosedRange<Int> {
-    return n...(.max)
 }

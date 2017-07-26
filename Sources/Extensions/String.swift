@@ -31,36 +31,4 @@ public extension String {
     func prepending(_ aString: String) -> String {
         return aString + self
     }
-    
-    /// Number of characters considering composed characters (like skin-colored emojis) as single characters.
-    var composedCount : Int {
-        var count = 0
-        enumerateSubstrings(in: startIndex..<endIndex, options: .byComposedCharacterSequences) { _ in count += 1}
-        return count
-    }
-    
-    /// Returns a new string containing the characters of the `String` that lie within a given range.
-    subscript(range: Range<Int>) -> String {
-        let i1 = self.index(self.startIndex, offsetBy: range.lowerBound)
-        let i2 = self.index(self.startIndex, offsetBy: range.upperBound)
-        return self.substring(with: i1..<i2)
-    }
-    
-    /// Returns a new string containing the characters of the `String` that lie within a given range.
-    ///
-    /// If the upper bound of the range is `Int.max` (almost certainly result of creating a range with the custom `...` postfix operator) the characters taken are those from the one at the lower bound to the end.
-    subscript(range: ClosedRange<Int>) -> String {
-        let i1 = self.index(self.startIndex, offsetBy: range.lowerBound)
-        if range.upperBound == .max {
-            return self.substring(from: i1)
-        }
-        let i2 = self.index(self.startIndex, offsetBy: range.upperBound + 1)
-        return self.substring(with: i1..<i2)
-    }
-    
-    /// Returns the character at the start index advanced by the given `Int`.
-    subscript(index: Int) -> Character {
-        let i = self.index(self.startIndex, offsetBy: index)
-        return self[i]
-    }
 }

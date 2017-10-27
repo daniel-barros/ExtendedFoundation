@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		33267BC51E82F1D90066907E /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33267BC41E82F1D90066907E /* Tests.swift */; };
 		33267BC71E82F1D90066907E /* ExtendedFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B7605D1E32525C0083099F /* ExtendedFoundation.framework */; };
+		334AECBC1FA39674000DEC9C /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334AECBB1FA39674000DEC9C /* Dictionary.swift */; };
+		334AECBD1FA39674000DEC9C /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334AECBB1FA39674000DEC9C /* Dictionary.swift */; };
+		334AECBE1FA39674000DEC9C /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334AECBB1FA39674000DEC9C /* Dictionary.swift */; };
+		334AECBF1FA39674000DEC9C /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334AECBB1FA39674000DEC9C /* Dictionary.swift */; };
 		33671C1D1E362E5D0057A29B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33671C1C1E362E5D0057A29B /* Result.swift */; };
 		33671C1E1E362E5D0057A29B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33671C1C1E362E5D0057A29B /* Result.swift */; };
 		33671C1F1E362E5D0057A29B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33671C1C1E362E5D0057A29B /* Result.swift */; };
@@ -105,6 +109,7 @@
 		33267BC21E82F1D90066907E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33267BC41E82F1D90066907E /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		33267BC61E82F1D90066907E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334AECBB1FA39674000DEC9C /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		33671C1C1E362E5D0057A29B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		33B615B11E4507CA005B0BA6 /* Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		33B760331E324FC20083099F /* ExtendedFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtendedFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -246,15 +251,16 @@
 				33B7607F1E3258310083099F /* ClosedRange.swift */,
 				33B760801E3258310083099F /* Date.swift */,
 				33B760811E3258310083099F /* DateFormatter.swift */,
-				33B615B11E4507CA005B0BA6 /* Optional.swift */,
+				334AECBB1FA39674000DEC9C /* Dictionary.swift */,
 				33B760821E3258310083099F /* Double.swift */,
 				33B760831E3258310083099F /* Int.swift */,
 				33B760841E3258310083099F /* Locale.swift */,
 				33B760851E3258310083099F /* NumberFormatter.swift */,
-				33BDEE9F1E410D6C0093C94C /* UserDefaults.swift */,
+				33B615B11E4507CA005B0BA6 /* Optional.swift */,
 				33B760861E3258310083099F /* Range.swift */,
 				33B760871E3258310083099F /* String.swift */,
 				33B760881E3258310083099F /* TimeZone.swift */,
+				33BDEE9F1E410D6C0093C94C /* UserDefaults.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -510,6 +516,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B7609D1E3258310083099F /* DateFormatter.swift in Sources */,
+				334AECBC1FA39674000DEC9C /* Dictionary.swift in Sources */,
 				33B760D31E32587F0083099F /* NSLocalizedString.swift in Sources */,
 				33B760B11E3258310083099F /* Range.swift in Sources */,
 				33B760AD1E3258310083099F /* NumberFormatter.swift in Sources */,
@@ -536,6 +543,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B7609E1E3258310083099F /* DateFormatter.swift in Sources */,
+				334AECBD1FA39674000DEC9C /* Dictionary.swift in Sources */,
 				33B760D41E32587F0083099F /* NSLocalizedString.swift in Sources */,
 				33B760B21E3258310083099F /* Range.swift in Sources */,
 				33B760AE1E3258310083099F /* NumberFormatter.swift in Sources */,
@@ -562,6 +570,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B7609F1E3258310083099F /* DateFormatter.swift in Sources */,
+				334AECBE1FA39674000DEC9C /* Dictionary.swift in Sources */,
 				33B760D51E32587F0083099F /* NSLocalizedString.swift in Sources */,
 				33B760B31E3258310083099F /* Range.swift in Sources */,
 				33B760AF1E3258310083099F /* NumberFormatter.swift in Sources */,
@@ -588,6 +597,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B760A01E3258310083099F /* DateFormatter.swift in Sources */,
+				334AECBF1FA39674000DEC9C /* Dictionary.swift in Sources */,
 				33B760D61E32587F0083099F /* NSLocalizedString.swift in Sources */,
 				33B760B41E3258310083099F /* Range.swift in Sources */,
 				33B760B01E3258310083099F /* NumberFormatter.swift in Sources */,

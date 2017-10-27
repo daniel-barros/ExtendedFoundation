@@ -43,4 +43,11 @@ class ExtendedFoundationTests: XCTestCase {
         XCTAssertEqual(date1.minutes(until: date3), 59)
         XCTAssertEqual(date1.seconds(since: date4), -2)
     }
+    
+    func test_Dictionary_flatMapValues() {
+        let a = ["a": 1, "b": 2, "c": -3]
+        let b = ["a": 1, "b": 2]
+        let c = a.flatMapValues { return $0 > 0 ? $0 : nil }
+        XCTAssertEqual(b, c)
+    }
 }

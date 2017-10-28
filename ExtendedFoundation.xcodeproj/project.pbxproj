@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		33267BC51E82F1D90066907E /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33267BC41E82F1D90066907E /* Tests.swift */; };
 		33267BC71E82F1D90066907E /* ExtendedFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B7605D1E32525C0083099F /* ExtendedFoundation.framework */; };
+		333565A61FA4EEBC00486353 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333565A51FA4EEBC00486353 /* Collection.swift */; };
+		333565A71FA4EEBC00486353 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333565A51FA4EEBC00486353 /* Collection.swift */; };
+		333565A81FA4EEBC00486353 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333565A51FA4EEBC00486353 /* Collection.swift */; };
+		333565A91FA4EEBC00486353 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333565A51FA4EEBC00486353 /* Collection.swift */; };
 		334AECBC1FA39674000DEC9C /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334AECBB1FA39674000DEC9C /* Dictionary.swift */; };
 		334AECBD1FA39674000DEC9C /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334AECBB1FA39674000DEC9C /* Dictionary.swift */; };
 		334AECBE1FA39674000DEC9C /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334AECBB1FA39674000DEC9C /* Dictionary.swift */; };
@@ -109,6 +113,7 @@
 		33267BC21E82F1D90066907E /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33267BC41E82F1D90066907E /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		33267BC61E82F1D90066907E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333565A51FA4EEBC00486353 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 		334AECBB1FA39674000DEC9C /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		33671C1C1E362E5D0057A29B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		33B615B11E4507CA005B0BA6 /* Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
@@ -249,6 +254,7 @@
 				33B7607D1E3258310083099F /* Bool.swift */,
 				33B7607E1E3258310083099F /* Calendar.swift */,
 				33B7607F1E3258310083099F /* ClosedRange.swift */,
+				333565A51FA4EEBC00486353 /* Collection.swift */,
 				33B760801E3258310083099F /* Date.swift */,
 				33B760811E3258310083099F /* DateFormatter.swift */,
 				334AECBB1FA39674000DEC9C /* Dictionary.swift */,
@@ -527,6 +533,7 @@
 				33B760911E3258310083099F /* Calendar.swift in Sources */,
 				33B760C81E32583D0083099F /* Operators.swift in Sources */,
 				33B7608D1E3258310083099F /* Bool.swift in Sources */,
+				333565A61FA4EEBC00486353 /* Collection.swift in Sources */,
 				33B760951E3258310083099F /* ClosedRange.swift in Sources */,
 				33B760A11E3258310083099F /* Double.swift in Sources */,
 				33B760CF1E32587F0083099F /* Dispatch.swift in Sources */,
@@ -554,6 +561,7 @@
 				33B760921E3258310083099F /* Calendar.swift in Sources */,
 				33B760C91E32583D0083099F /* Operators.swift in Sources */,
 				33B7608E1E3258310083099F /* Bool.swift in Sources */,
+				333565A71FA4EEBC00486353 /* Collection.swift in Sources */,
 				33B760961E3258310083099F /* ClosedRange.swift in Sources */,
 				33B760A21E3258310083099F /* Double.swift in Sources */,
 				33B760D01E32587F0083099F /* Dispatch.swift in Sources */,
@@ -581,6 +589,7 @@
 				33B760931E3258310083099F /* Calendar.swift in Sources */,
 				33B760CA1E32583D0083099F /* Operators.swift in Sources */,
 				33B7608F1E3258310083099F /* Bool.swift in Sources */,
+				333565A81FA4EEBC00486353 /* Collection.swift in Sources */,
 				33B760971E3258310083099F /* ClosedRange.swift in Sources */,
 				33B760A31E3258310083099F /* Double.swift in Sources */,
 				33B760D11E32587F0083099F /* Dispatch.swift in Sources */,
@@ -608,6 +617,7 @@
 				33B760941E3258310083099F /* Calendar.swift in Sources */,
 				33B760CB1E32583D0083099F /* Operators.swift in Sources */,
 				33B760901E3258310083099F /* Bool.swift in Sources */,
+				333565A91FA4EEBC00486353 /* Collection.swift in Sources */,
 				33B760981E3258310083099F /* ClosedRange.swift in Sources */,
 				33B760A41E3258310083099F /* Double.swift in Sources */,
 				33B760D21E32587F0083099F /* Dispatch.swift in Sources */,

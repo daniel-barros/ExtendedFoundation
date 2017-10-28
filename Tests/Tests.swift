@@ -44,10 +44,21 @@ class ExtendedFoundationTests: XCTestCase {
         XCTAssertEqual(date1.seconds(since: date4), -2)
     }
     
+    func test_Date_Operators() {
+        let a = Date.now
+        XCTAssertEqual(a + 3.hours, a.addingTimeInterval(3*3600))
+        XCTAssertEqual(a - 3.hours, a.addingTimeInterval(-3*3600))
+    }
+    
     func test_Dictionary_flatMapValues() {
         let a = ["a": 1, "b": 2, "c": -3]
         let b = ["a": 1, "b": 2]
         let c = a.flatMapValues { return $0 > 0 ? $0 : nil }
         XCTAssertEqual(b, c)
+    }
+    
+    func test_Collection_sum() {
+        let a = [1,2,-3,4,5]
+        XCTAssertEqual(a.sum(), 9)
     }
 }

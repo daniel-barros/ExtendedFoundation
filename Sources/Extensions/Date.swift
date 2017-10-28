@@ -45,6 +45,16 @@ public extension Date {
         return addingTimeInterval(duration.converted(to: .seconds).value)
     }
     
+    @available(iOS 10, watchOS 3, tvOS 10, macOS 10.12, *)
+    static func +(_ lhs: Date, _ rhs: Measurement<UnitDuration>) -> Date {
+        return lhs.adding(rhs)
+    }
+    
+    @available(iOS 10, watchOS 3, tvOS 10, macOS 10.12, *)
+    static func -(_ lhs: Date, _ rhs: Measurement<UnitDuration>) -> Date {
+        return lhs.adding(-rhs)
+    }
+    
     func adding(days: Int, inCalendar calendar: Calendar) -> Date {
         return calendar.date(byAdding: DateComponents(day: days), to: self)!
     }

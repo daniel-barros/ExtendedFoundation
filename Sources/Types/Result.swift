@@ -26,54 +26,48 @@
 
 import Foundation
 
-/// Convenient type for using with completion handlers in asynchronous functions that may fail with an error.
-public enum Result<T> {
-    case success(T)
+/// Convenient type for using with completion handlers in functions that may fail with an error.
+public enum TypedResult<Value, ErrorType> where ErrorType: Error {
+    case success(Value)
+    case failure(ErrorType)
+    
+    /// `true` if `.success`, false otherwise.
+    public var isSuccessful: Bool {
+        return value != nil
+    }
+    
+    /// The associated value if `.success`, nil otherwise.
+    public var value: Value? {
+        guard case let .success(value) = self else { return nil }
+        return value
+    }
+    
+    /// The associated error if `.failure`, nil otherwise.
+    public var error: ErrorType? {
+        guard case let .failure(error) = self else { return nil }
+        return error
+    }
+}
+
+/// Convenient type for using with completion handlers in functions that may fail with an optional error.
+public enum Result<Value> {
+    case success(Value)
     case failure(Error?)
     
     /// `true` if `.success`, false otherwise.
     public var isSuccessful: Bool {
-        if case .success(_) = self {
-            return true
-        }
-        return false
+        return value != nil
     }
     
     /// The associated value if `.success`, nil otherwise.
-    public var value: T? {
-        if case let .success(value) = self {
-            return value
-        }
-        return nil
+    public var value: Value? {
+        guard case let .success(value) = self else { return nil }
+        return value
     }
     
     /// The associated error if `.failure`, nil otherwise.
     public var error: Error? {
-        if case let .failure(error) = self {
-            return error
-        }
-        return nil
-    }
-}
-
-/// Convenient type for using with completion handlers in asynchronous functions that either succeed or fail, the latter with an optional error.
-public enum BooleanResult<E> where E: Error {
-    case success
-    case failure(E?)
-    
-    /// `true` if `.success`, false otherwise.
-    public var isSuccessful: Bool {
-        if case .success = self {
-            return true
-        }
-        return false
-    }
-    
-    /// The associated error if `.failure`, nil otherwise.
-    public var error: E? {
-        if case let .failure(error) = self {
-            return error
-        }
-        return nil
+        guard case let .failure(error) = self else { return nil }
+        return error
     }
 }

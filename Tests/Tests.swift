@@ -61,4 +61,17 @@ class ExtendedFoundationTests: XCTestCase {
         let a = [1,2,-3,4,5]
         XCTAssertEqual(a.sum(), 9)
     }
+    
+    func testResult() {
+        var r = Result<Int>.success(1)
+        XCTAssertEqual(r.value, 1)
+        XCTAssert(r.error == nil)
+        XCTAssertEqual(r.isSuccessful, true)
+        
+        let error = NSError()
+        r = .failure(error)
+        XCTAssertEqual(r.value, nil)
+        XCTAssert(r.error != nil)
+        XCTAssertEqual(r.isSuccessful, false)
+    }
 }

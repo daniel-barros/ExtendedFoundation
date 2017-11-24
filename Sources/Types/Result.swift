@@ -71,3 +71,21 @@ public enum Result<Value> {
         return error
     }
 }
+
+/// Convenient type for using with completion handlers in asynchronous functions that either succeed or fail, the latter with an optional error.
+public enum BooleanResult<ErrorType> where ErrorType: Error {
+    case success
+    case failure(ErrorType?)
+    
+    /// `true` if `.success`, false otherwise.
+    public var isSuccessful: Bool {
+        if case .success = self { return true }
+        return false
+    }
+    
+    /// The associated error if `.failure`, nil otherwise.
+    public var error: ErrorType? {
+        if case let .failure(error) = self { return error }
+        return nil
+    }
+}

@@ -55,16 +55,16 @@ public extension Date {
         return lhs.adding(-rhs)
     }
     
-    func adding(days: Int, inCalendar calendar: Calendar) -> Date! {
-        return calendar.date(byAdding: .day, value: days, to: self)
+    func adding(days: Int, inCalendar calendar: Calendar) -> Date {
+        return calendar.date(byAdding: .day, value: days, to: self)!
     }
     
-    func adding(months: Int, inCalendar calendar: Calendar) -> Date! {
-        return calendar.date(byAdding: .month, value: months, to: self)
+    func adding(months: Int, inCalendar calendar: Calendar) -> Date {
+        return calendar.date(byAdding: .month, value: months, to: self)!
     }
     
-    func adding(years: Int, inCalendar calendar: Calendar) -> Date! {
-        return calendar.date(byAdding: .year, value: years, to: self)
+    func adding(years: Int, inCalendar calendar: Calendar) -> Date {
+        return calendar.date(byAdding: .year, value: years, to: self)!
     }
     
     func hours(since date: Date) -> Int {

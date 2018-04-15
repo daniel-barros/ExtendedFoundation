@@ -44,6 +44,17 @@ class ExtendedFoundationTests: XCTestCase {
         XCTAssertEqual(date1.seconds(since: date4), -2)
     }
     
+    func test_Date_adding() {
+        let date1 = Date()
+        let date2 = date1.adding(days: 2, inCalendar: .current)
+        let date3 = date1.adding(months: -1, inCalendar: .current)
+        let date4 = date1.adding(years: 4, inCalendar: .current)
+        
+        XCTAssertEqual(date2, Calendar.current.date(byAdding: DateComponents(day: 2), to: date1))
+        XCTAssertEqual(date3, Calendar.current.date(byAdding: DateComponents(month: -1), to: date1))
+        XCTAssertEqual(date4, Calendar.current.date(byAdding: DateComponents(year: 4), to: date1))
+    }
+    
     func test_Date_Operators() {
         let a = Date.now
         XCTAssertEqual(a + 3.hours, a.addingTimeInterval(3*3600))

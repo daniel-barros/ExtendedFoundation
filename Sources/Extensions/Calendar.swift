@@ -31,24 +31,24 @@ public extension Calendar {
     /// Gregorian calendar with US locale and ET time zone.
     static var americanEastern: Calendar {
         var calendar = Calendar(identifier: .gregorian)
-        calendar.locale = Locale.american
-        calendar.timeZone = TimeZone.ET
+        calendar.locale = .american
+        calendar.timeZone = .ET
         return calendar
     }
     
     /// Gregorian calendar with US locale and ET time zone.
     static var americanPacific: Calendar {
         var calendar = Calendar(identifier: .gregorian)
-        calendar.locale = Locale.american
-        calendar.timeZone = TimeZone.PT
+        calendar.locale = .american
+        calendar.timeZone = .PT
         return calendar
     }
     
     /// Gregorian calendar with Spanish locale and time zone.
     static var spanish: Calendar {
         var calendar = Calendar(identifier: .gregorian)
-        calendar.locale = Locale.spanish
-        calendar.timeZone = TimeZone.spanish
+        calendar.locale = .spanish
+        calendar.timeZone = .spanish
         return calendar
     }
     
@@ -70,14 +70,14 @@ public extension Calendar {
     
     
     func numberOfDays(from first: Date, to second: Date) -> Int {
-        return dateComponents([.day], from: first, to: second).day!
+        return dateComponents([.day], from: startOfDay(for: first), to: startOfDay(for: second)).day!
     }
     
     func numberOfMonths(from first: Date, to second: Date) -> Int {
-        return dateComponents([.month], from: first, to: second).month!
+        return dateComponents([.month], from: startOfDay(for: first), to: startOfDay(for: second)).month!
     }
     
     func numberOfYears(from first: Date, to second: Date) -> Int {
-        return dateComponents([.year], from: first, to: second).year!
+        return dateComponents([.year], from: startOfDay(for: first), to: startOfDay(for: second)).year!
     }
 }

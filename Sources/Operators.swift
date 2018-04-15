@@ -54,19 +54,6 @@ public func =? <T>(left: inout T?, right: T?) {
     }
 }
 
-/// Performs assignment only if the element on the right is not nil, otherwise it does nothing.
-///
-/// For example:
-///
-///     a =? b
-///     // is equivalent to
-///     if let c = b { a = c }
-public func =? <T>(left: inout T!, right: T?) {
-    if let right = right {
-        left = right
-    }
-}
-
 
 /// Minus sign operator for measurements.
 @available(iOS 10, watchOS 3, tvOS 10, macOS 10.12, *)
